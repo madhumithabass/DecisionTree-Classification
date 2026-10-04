@@ -1,4 +1,4 @@
-# Decision Tree Classification & Regression
+# Decision Tree Classification
 
 A comprehensive implementation of Decision Tree models using Python and `scikit-learn`. This project demonstrates data preprocessing, model training, hyperparameter tuning, tree visualization, and evaluation metrics.
 
@@ -9,7 +9,7 @@ A comprehensive implementation of Decision Tree models using Python and `scikit-
 Decision Trees are non-parametric supervised learning methods used for both classification and regression. The model predicts the value of a target variable by learning simple decision rules inferred from the data features.
 
 ### Key Objectives:
-- Implement `DecisionTreeClassifier` and `DecisionTreeRegressor`.
+- Implement `DecisionTreeClassifier
 - Evaluate splitting criteria (Gini Impurity, Entropy / Log Loss, Mean Squared Error).
 - Address and prevent overfitting using pruning techniques (`max_depth`).
 - Visualize tree architecture and feature importances.
@@ -31,11 +31,10 @@ Decision Trees are non-parametric supervised learning methods used for both clas
 ## 🛠️ Tech Stack & Requirements
 
 * **Python 3.8+**
-* `numpy`
 * `pandas`
 * `scikit-learn`
 * `matplotlib` / `seaborn`
-* `graphviz` (optional, for advanced tree rendering)
+
 
 Install dependencies:
 ```bash
